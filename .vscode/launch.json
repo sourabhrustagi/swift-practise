@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Swift: Current File",
+      "type": "lldb",
+      "request": "launch",
+      "program": "/usr/bin/swift",
+      "args": ["${file}"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Swift: basic-operators.swift",
+      "type": "lldb",
+      "request": "launch",
+      "program": "/usr/bin/swift",
+      "args": ["${workspaceFolder}/basic-operators.swift"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
+
+
+
